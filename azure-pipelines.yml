@@ -53,7 +53,7 @@ steps:
 
     docker run -i \
     -e ACCEPT_EULA=true \
-    -w $PWD/temp \
+    -w /home/parasoft \
     -v $PWD:/root/.m2 \
     lavanya93/jtestmaven:firsttry /bin/bash -c "mvn clean install jtest:jtest" \
     docker ps \
