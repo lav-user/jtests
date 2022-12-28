@@ -1,0 +1,58 @@
+Sending usage data is disabled, use usage.reporting.enabled to enable
+Sensitive data may be at risk due to insecure HTTP communication with DTP server. Please consider using HTTPS protocol.
+DTP Services: Loading available services from http://localhost:8084/grs/api/v1.6/dtpServices
+DTP Services: Registering the following services: [projects, staticAnalysisViolationsMetadataUpdate, dynamicAnalysisTestCasesMetadata, testConfigurationsExtended, rules, tools, buildReviews, priorities, testActions, staticAnalysisViolations, builds, staticAnalysisFindings, unbranchedResourcesSearch, reportedResourcesScmRepositories, localSettings, coverage, staticAnalysisViolationsMetadata, dynamicAnalysisTestCases, resources, filters, ruleMapResources, license, dynamicAnalysisTestCasesMetadataUpdate, testConfigurationsUpload, testConfigurations]
+DTP Services: Loading available services from http://localhost:8084/grs/api/v1/dtpServices
+DTP Services: Registering the following services: [dataCollectorV2, testConfigurationsExtended, existingLocalSourceCopy, rules, tools, changeExplorer, priorities, processIntelligenceEngine, staticAnalysisViolations, builds, metricsExplorer, violationsExplorer, reportedResourcesScmRepositories, localSettings, coverage, staticAnalysisViolationsMetadata, dynamicAnalysisTestCases, resources, testExplorer, filters, dataCollector, coverageExplorer, ruleMapResources, license, testConfigurations, licenseServer, reportCenter]
+License: Initializing network license for Jtest 10.6 at http://localhost:8084/licenseserver/api/v1
+License: Activating Custom Edition
+License: Checking features ...
+License: Main feature "Jtest" status: License OK.
+License: Feature "Unit Test" status: License OK.
+License: Feature "Static Analysis" status: License OK.
+License: Feature "Coverage" status: License OK.
+License: Feature "Flow Analysis" status: License OK.
+License: Feature "Change Based Testing" status: License OK.
+License: Feature "Security Rules" status: License OK.
+License: Feature "CWE Rules" status: License OK.
+License: Feature "OWASP Rules" status: License OK.
+License: Feature "PCI DSS Rules" status: License OK.
+License: Feature "DISA STIG Rules" status: License OK.
+License: Feature "Automation" status: License OK.
+License: Feature "Desktop Command Line" status: License OK.
+License: Activation finished: License OK.
+License: Machine id WIN32-1703b564 (Default)
+Available test configurations: 32
+  builtin://Calculate Application Coverage
+  builtin://CERT for Java
+  builtin://Code Smells
+  builtin://Critical Rules
+  builtin://CWE 4.6
+  builtin://CWE Top 25 + On the Cusp 2021
+  builtin://CWE Top 25 2021
+  builtin://Demo Configuration
+  builtin://DISA-ASD-STIG
+  builtin://Find Duplicated Code
+  builtin://Find Memory Problems
+  builtin://Find Unused Code
+  builtin://Flow Analysis Aggressive
+  builtin://Flow Analysis Fast
+  builtin://Flow Analysis Standard
+  builtin://Internationalize Code
+  builtin://JUnit 4 Best Practices
+  builtin://JUnit 5 Best Practices
+  builtin://Metrics
+  builtin://OWASP API Security Top 10-2019
+  builtin://OWASP Top 10-2017
+  builtin://OWASP Top 10-2021
+  builtin://PCI DSS 3.2
+  builtin://Recommended Rules
+  builtin://TDD Best Practices
+  builtin://Thread Safe Programming
+  builtin://UL 2900
+  builtin://UnitTests
+  team://OWASP Top 10
+  team://Parasoft Level 1
+  team://Parasoft Level 2
+  team://Parasoft Level 3
+Error: Could not load test configuration: builtin://CWE Top 25 2020

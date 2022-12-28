@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mergePnt id="setupProblems">
+  <SetupProblems>
+    <Problem msg="Project compilation problems:" sev="2" totErrs="1" type="ProjectCompilationProblem">
+      <ErrorList>
+        <Error val="Project 'com.parasoft:demo' contains compilation problems" />
+      </ErrorList>
+    </Problem>
+    <Problem msg="Compilation setup problems:" sev="1" totErrs="6" type="CompilationSetupProblem">
+      <ErrorList>
+        <Error val="Compilation error during Static Analysis:&#xd;&#xa;C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\junit\MoneyBagParameterizedTest.java:3: The import org.junit cannot be resolved&#xd;&#xa;" />
+        <Error val="Compilation error during Static Analysis:&#xd;&#xa;C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\junit\NaiveStringBuilderParameterizedTest.java:3: The import org.junit cannot be resolved&#xd;&#xa;" />
+        <Error val="Compilation error during Static Analysis:&#xd;&#xa;C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\junit\MoneyTest.java:3: The import org.junit cannot be resolved&#xd;&#xa;" />
+        <Error val="Compilation error during Static Analysis:&#xd;&#xa;C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\servlets\ExampleServletTest.java:3: The import org.junit cannot be resolved&#xd;&#xa;" />
+        <Error val="Compilation error during Static Analysis:&#xd;&#xa;C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\mock\InterpreterTest.java:6: The import org.junit cannot be resolved&#xd;&#xa;" />
+        <Error val="Compilation error during Static Analysis:&#xd;&#xa;C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\mock\FileExampleTest.java:2: The import org.junit cannot be resolved&#xd;&#xa;" />
+      </ErrorList>
+    </Problem>
+  </SetupProblems>
+</mergePnt>

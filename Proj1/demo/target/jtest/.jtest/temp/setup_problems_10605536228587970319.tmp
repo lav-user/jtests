@@ -1,0 +1,54 @@
+Type: ProjectCompilationProblem
+Message: Project compilation problems:
+Severity: 2
+ErrorList: 
+   Project 'com.parasoft:demo' contains compilation problems
+
+Type: CompilationSetupProblem
+Message: Compilation setup problems:
+Severity: 1
+ErrorList: 
+   Compilation error during Static Analysis:
+C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\junit\MoneyBagParameterizedTest.java:3: The import org.junit cannot be resolved
+
+
+Type: CompilationSetupProblem
+Message: Compilation setup problems:
+Severity: 1
+ErrorList: 
+   Compilation error during Static Analysis:
+C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\servlets\ExampleServletTest.java:3: The import org.junit cannot be resolved
+
+
+Type: CompilationSetupProblem
+Message: Compilation setup problems:
+Severity: 1
+ErrorList: 
+   Compilation error during Static Analysis:
+C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\junit\MoneyTest.java:3: The import org.junit cannot be resolved
+
+
+Type: CompilationSetupProblem
+Message: Compilation setup problems:
+Severity: 1
+ErrorList: 
+   Compilation error during Static Analysis:
+C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\junit\NaiveStringBuilderParameterizedTest.java:3: The import org.junit cannot be resolved
+
+
+Type: CompilationSetupProblem
+Message: Compilation setup problems:
+Severity: 1
+ErrorList: 
+   Compilation error during Static Analysis:
+C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\mock\InterpreterTest.java:6: The import org.junit cannot be resolved
+
+
+Type: CompilationSetupProblem
+Message: Compilation setup problems:
+Severity: 1
+ErrorList: 
+   Compilation error during Static Analysis:
+C:\Program Files\Parasoft\Jtest\parasoft_jtest_2022.1.0_win32_x86_64\jtest\examples\demo\src\test\java\examples\mock\FileExampleTest.java:2: The import org.junit cannot be resolved
+
+
