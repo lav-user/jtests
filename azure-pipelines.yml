@@ -58,6 +58,7 @@ steps:
     lavanya93/jtestmaven:firsttry /bin/bash -c " \
     cd demo ; \
     "mvn clean install jtest:jtest" \
+    -s /home/parasoft/.m2/settings.xml \
     docker ps \
     echo -e "\nDebug -- Verify ./temp contents\n"
     ls -R $PWD/temp
