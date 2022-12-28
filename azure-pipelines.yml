@@ -54,7 +54,7 @@ steps:
     docker run -i \
     -e ACCEPT_EULA=true \
     -w /home/vsts/work/1/s/temp/demo/ \
-    -v $PWD: $PWD \
+    -v $PWD:/root/.m2 \
     lavanya93/jtestmaven:firsttry /bin/bash -c "mvn clean install jtest:jtest" \
     docker ps \
     echo -e "\nDebug -- Verify ./temp contents\n"
