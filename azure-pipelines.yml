@@ -26,9 +26,9 @@ steps:
     echo  -e "\n~~~\nSetting up and creating soatestcli.properties file.\n"
     echo $"
     parasoft.eula.accepted=true
-    dtp.url=$(license.server.url)
+    dtp.url=$(localdtp)
     dtp.user=admin
-    dtp.password=$(license.server.password)
+    dtp.password=admin
     dtp.share.enabled=true
     dtp.project=ADO_1
     console.verbosity.level=high
@@ -53,7 +53,7 @@ steps:
 
     docker run -i \
     -e ACCEPT_EULA=true \
-    -v "$PWD:$PWD" \
+    -v "$PWD/temp:$PWD" \
     -w "$PWD" \
     lavanya93/jtestmaven:firsttry /bin/bash -c " \
     cd demo ; \
